@@ -18,3 +18,4 @@ python -m unittest discover -v
 Ver `CONTRIBUTING.md`.
 
 Version: 1.0.0
+Equipo: NOMBRE1, NOMBRE2, NOMBRE3
