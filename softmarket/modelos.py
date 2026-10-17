@@ -8,6 +8,10 @@ class ItemFactura:
     precio: float
     cantidad: int
 
+    def __post_init__(self):
+        if self.precio < 0 or self.cantidad <= 0:
+            raise ValueError("El precio no puede ser negativo y la cantidad debe ser mayor que 0")
+
     def subtotal(self):
         return self.precio * self.cantidad
 
