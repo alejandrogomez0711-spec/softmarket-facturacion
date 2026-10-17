@@ -16,3 +16,5 @@ python -m unittest discover -v
 
 ## Flujo de trabajo
 Ver `CONTRIBUTING.md`.
+
+Version: 1.0.0
